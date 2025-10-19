@@ -14,4 +14,6 @@ function changeColor() {
     var color = "rgb(" + r + "," + g + "," + b + ")";
     body.style.backgroundColor = color;
 }
+// Combine the red, green, and blue values into an RGB color string
+var color = "rgb(" + r + "," + g + "," + b + ")";
 
