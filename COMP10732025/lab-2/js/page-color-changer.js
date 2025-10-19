@@ -14,6 +14,8 @@ function changeColor() {
     var color = "rgb(" + r + "," + g + "," + b + ")";
     body.style.backgroundColor = color;
 }
-// Combine the red, green, and blue values into an RGB color string
-var color = "rgb(" + r + "," + g + "," + b + ")";
+// this change the Color whenever the rgb inputs change
+red.addEventListener("input", changeColor);
+green.addEventListener("input", changeColor);
+blue.addEventListener("input", changeColor);
 
