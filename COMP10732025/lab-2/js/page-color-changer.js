@@ -5,5 +5,13 @@ var blue = document.getElementById("blue");
 
 //Select the html element so we can change its styles 
 var body = document.documentElement;
+// created function to changes the background color based on input values
+function changeColor() {
+    var r = red.value;
+    var g = green.value;
+    var b = blue.value;
 
+    var color = "rgb(" + r + "," + g + "," + b + ")";
+    body.style.backgroundColor = color;
+}
 
