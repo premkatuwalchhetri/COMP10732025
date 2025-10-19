@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: yellow;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  color: red;
+  text-shadow: 1px 1px white;
+}
+#controls, #actions {
+  display: inline-block;
+  background-color: navajowhite;
+  border: 4px solid orange;
+  border-radius: 50%;
+  padding: 30px;
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+#whoBtn {
+  position: absolute;
+  top: 20px;
+  left: 90px;
+}
+#whatBtn {
+  position: absolute;
+  top: 80px;
+  right: 10px;
+}
+#whereBtn {
+  position: absolute;
+  bottom: 20px;
+  left: 90px;
+}
+#whenBtn {
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+#whyBtn {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+}
+button {
+  background-color: red;
+  border: 2px solid orange;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+button:hover {
+  background-color: orange;
+}
+#storyOutput {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: black;
+}
+#actions {
+  border: none;
+  background-color: transparent;
+  margin-top: 40px;
+}
+#randomStoryBtn, #resetBtn, #showStoryBtn {
+  margin: 10px;
+  background-color: grey;
+  border: 2px solid skyblue;
+}
+#randomStoryBtn:hover, #resetBtn:hover, #showStoryBtn:hover {
+  background-color: blue;
+}
