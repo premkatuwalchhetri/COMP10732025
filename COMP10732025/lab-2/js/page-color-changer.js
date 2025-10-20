@@ -1,10 +1,12 @@
+//this Wait for the html to fully load before executing the script
+document.addEventListener('DOMContentLoaded', () => {
 //geeting rgb sliders
 var red = document.getElementById("red");
 var green = document.getElementById("green");
 var blue = document.getElementById("blue");
 
 //Select the html element so we can change its styles 
-var body = document.documentElement;
+var body = document.body;
 // created function to changes the background color based on input values
 function changeColor() {
     var r = red.value;
@@ -18,4 +20,4 @@ function changeColor() {
 red.addEventListener("input", changeColor);
 green.addEventListener("input", changeColor);
 blue.addEventListener("input", changeColor);
-
+});
