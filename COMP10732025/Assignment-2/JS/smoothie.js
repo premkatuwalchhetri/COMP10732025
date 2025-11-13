@@ -21,3 +21,11 @@ document.getElementById('orderBtn').addEventListener('click', function() {
     }
     //this gets the input value from element with id called base
     const base = document.getElementById('base').value;
+    //this stores checked ingredient values in array
+    let ingredients = [];
+    const checks = document.getElementsByName('ingredient');
+    for (let i = 0; i < checks.length; i++) {
+        if (checks[i].checked) {
+            ingredients.push(checks[i].value);
+        }
+    }
