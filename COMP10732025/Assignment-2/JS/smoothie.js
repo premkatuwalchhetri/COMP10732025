@@ -12,3 +12,12 @@ Smoothie.prototype.describe = function() {
 //this adds the event for the order button
 document.getElementById('orderBtn').addEventListener('click', function() {
     const name = document.getElementById('name').value;
+    let sizeValue = "";
+    const sizes = document.getElementsByName('size');
+    for (let i = 0; i < sizes.length; i++) {
+        if (sizes[i].checked) {
+            sizeValue = sizes[i].value;
+        }
+    }
+    //this gets the input value from element with id called base
+    const base = document.getElementById('base').value;
