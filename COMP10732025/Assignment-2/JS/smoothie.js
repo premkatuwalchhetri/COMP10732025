@@ -29,3 +29,5 @@ document.getElementById('orderBtn').addEventListener('click', function() {
             ingredients.push(checks[i].value);
         }
     }
+    // this gets the input value from element with id called sweetness
+    const sweetness = document.getElementById('sweetness').value;
