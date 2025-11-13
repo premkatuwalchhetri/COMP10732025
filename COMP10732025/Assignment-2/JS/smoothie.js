@@ -9,7 +9,7 @@ function Smoothie(name, size, base, ingredients, fruits) {
 }
 // this method for the description of the smoothies
 Smoothie.prototype.describe = function() {
-    return "the special smoothie for " + this.name +"\nwith " + this.size + "\nsize"+"\nwith the Base " + this.base +"\nof the ingredients " + this.ingredients.join(", ") +"\nwith our special fruits is ready.... have a nice day. enjoy your smothiee  " ;
+    return "the special smoothie for " + this.name +"\nwith " + this.size + "\nsize"+"\nwith the Base " + this.base +"\nof the ingredients " + this.ingredients.join(", ") +"\nwith our special fruits is ready.. have a nice day. enjoy your smothiee  " ;
 };
 //this adds the event for the order button
 document.getElementById('smoothieForm').addEventListener('submit', function(e) {
