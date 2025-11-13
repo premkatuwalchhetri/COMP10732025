@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: whitesmoke;
+    align-items: center;
+}
+h1 {
+    color: green;
+}
+form {
+    background: white;
+    padding: 70px 80px;
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    color: blue;
+    background-color: red;;
+}
+#output {
+    margin-top: 20px;
+    font-weight: bold;
+}
