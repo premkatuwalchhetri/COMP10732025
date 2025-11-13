@@ -31,3 +31,5 @@ document.getElementById('orderBtn').addEventListener('click', function() {
     }
     // this gets the input value from element with id called sweetness
     const sweetness = document.getElementById('sweetness').value;
+    // created a new smoothie object
+    const smoothieOrder = new Smoothie(name, sizeValue, base, ingredients, sweetness);
