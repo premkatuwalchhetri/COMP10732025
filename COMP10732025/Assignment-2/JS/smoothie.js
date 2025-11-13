@@ -9,3 +9,5 @@ function Smoothie(name, size, ingredients, fruits) {
 Smoothie.prototype.describe = function() {
     alert("Smoothie for", this.name,"\nin this Size:", this.size, "\nwhith this ingredients:", this.ingredients, "\nwith special fruith:", this.fruits,);
 };
+//this adds the event for the order button
+document.getElementById('orderBtn').addEventListener('click', function() {
