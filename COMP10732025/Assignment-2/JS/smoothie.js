@@ -11,3 +11,4 @@ Smoothie.prototype.describe = function() {
 };
 //this adds the event for the order button
 document.getElementById('orderBtn').addEventListener('click', function() {
+    const name = document.getElementById('name').value;
