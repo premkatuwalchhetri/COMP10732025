@@ -24,4 +24,19 @@ function ToyCar(brand, model, color, scale, price, wheels, material, isElectric,
                "Features: " + this.features.join(", ");
     };
 }
+// this is the function to create the car object 
+function createCar() {
+    myCar = new ToyCar(
+        "1970 Buick GSX",
+        "RC2 RC015/48",
+        "Blue",
+        "1:24",
+        22.99,
+        4,
+        "Metal",
+        false,
+        2024,
+        ["Opening doors", "Pull-back action", "stylish wheels"]
+    );
+
 
