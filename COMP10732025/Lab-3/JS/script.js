@@ -45,6 +45,8 @@ function createCar() {
 function changeColor() {
     if (myCar) {
         myCar.color = "Red"; 
+        // this displays the car description in the output element using textContent
+        document.getElementById("output").textContent = myCar.describe();
     }
 }
 
