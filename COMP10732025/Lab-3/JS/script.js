@@ -38,5 +38,10 @@ function createCar() {
         2024,
         ["Opening doors", "Pull-back action", "stylish wheels"]
     );
+    // this displays the myCar description in the output element
+    document.getElementById("output").textContent = myCar.describe();
+}
+
+
 
 
