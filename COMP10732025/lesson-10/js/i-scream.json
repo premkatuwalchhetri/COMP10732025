@@ -25,6 +25,17 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+    {
+      "name": "ice-cream-xtra1",
+      "calories": 420,
+      "type": "ice cream",
+      "ingredients": [
+        "grape syrup",
+        "blue raspberry drizzle",
+        "cosmic sugar dust"
+      ],
+      "image": "ice-cream-xtra1.svg"
     }
   ]
 }
