@@ -36,6 +36,17 @@
         "cosmic sugar dust"
       ],
       "image": "ice-cream-xtra1.svg"
+    },
+    {
+      "name": "Bubblegum Blizzard",
+      "calories": 390,
+      "type": "frozen yogurt",
+      "ingredients": [
+        "bubblegum cream",
+        "rainbow sprinkles",
+        "marshmallow fluff"
+      ],
+      "image": "ice-cream-xtra2.svg"
     }
   ]
 }
