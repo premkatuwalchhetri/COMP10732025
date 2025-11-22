@@ -6,7 +6,7 @@ const section = document.querySelector('section');
 async function populate(){
     // Introducing JavaScript Object Notation (JSON): https://json.org/
     // STEP 4: Store the URL of a JSON file in a variable */
-    const requestURL = 'https://premkatuwalchhetri.github.io/COMP10732025/COMP10732025/lesson-10/js/i-scream.json';
+    const requestURL = './js/i-scream.json';
     // STEP 5: Use the new URL to create a new request object
     const request = new Request(requestURL);
     // STEP 6: Make a network request with the fetch() function, which returns a Response object
@@ -50,10 +50,11 @@ function showTopFlavors(jsonObj) {
         let h2 = document.createElement('h2');
         let img= document.createElement('img');
         let ul = document.createElement('ul');
+        let pCalories = document.createElement('p');
 
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
         h2.textContent = topFlavors[i].name;
-        img.setAttribute('src','https://premkatuwalchhetri.github.io/COMP10732025/COMP10732025/lesson-10/images/' + topFlavors[i].image);
+        img.setAttribute('src','./images/' + topFlavors[i].image);
         
 
         // STEP 10g: Build a loop for the ingredients array in the JSON
@@ -73,7 +74,8 @@ function showTopFlavors(jsonObj) {
         section.appendChild(article);
         
     };
-};
+
+}
 // STEP 11: The instructor will edit the JSON file - refresh your page to see the updated content
 
 // STEP 12: Change the URL in STEP 3 to point to the JSON file in the local /js folder in order to prepare for today's lab
