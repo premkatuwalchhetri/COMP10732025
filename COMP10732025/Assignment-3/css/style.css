@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: greenyellow;
+}
+h1 {
+    margin-bottom: 20px;
+}
+dl {
+    margin-top: 20px;
+}
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+dd {
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+input[type="text"] {
+    padding: 8px;
+    width: 60%;
+    margin-right: 8px;
+    color: red;
+}
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+    color: yellow;
+    background-color: black;
+}
+p a {
+    color: green;
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
+}
