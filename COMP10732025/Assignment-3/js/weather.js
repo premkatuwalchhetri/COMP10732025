@@ -24,4 +24,9 @@ function updateWeatherInfo(data) {
 getWeatherBtn.addEventListener('click', async () => {
 // this reads the city name the user entered and removes extra spaces
     const city = cityInput.value.trim();
+    // if the user hasnot typed anything it will show a message.
+    if (city === "") {
+        tempOutput.textContent = "Firstly enter a city";
+        return;
+    }
 }
