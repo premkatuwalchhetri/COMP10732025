@@ -43,5 +43,11 @@ getWeatherBtn.addEventListener('click', async () => {
             humidityOutput.textContent = "";
             return;
         }
+        //it update the displayed weather information if everything is good
+        updateWeatherInfo(data);
+    }catch (error) {
+        // If something goes wrong
+        tempOutput.textContent = "Error";
+        console.error(error);
     }
-}
+});
