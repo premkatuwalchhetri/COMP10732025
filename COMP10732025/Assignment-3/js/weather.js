@@ -20,3 +20,7 @@ function updateWeatherInfo(data) {
 // this displays the humidity percentage.
     humidityOutput.textContent = data.main.humidity + "%";
 }
+//it begins the process of getting weather data When the button is clicked
+getWeatherBtn.addEventListener('click', async () => {
+
+}
