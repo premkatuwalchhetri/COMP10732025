@@ -15,4 +15,6 @@ function updateWeatherInfo(data) {
     tempOutput.textContent = data.main.temp + " °C";
 // this shows a short description of the weather 
     descOutput.textContent = data.weather[0].description;
+// this shows what the temperature feels like
+    feelsOutput.textContent = data.main.feels_like + " °C";
 }
