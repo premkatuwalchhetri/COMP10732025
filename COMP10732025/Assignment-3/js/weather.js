@@ -35,5 +35,13 @@ getWeatherBtn.addEventListener('click', async () => {
     try {       
         const response = await fetch(url);
         const data = await response.json();
+        // here if the api says the city does not exist, show an error message.
+        if (data.cod !== 200) {
+            tempOutput.textContent = "city doesnot exists";
+            descOutput.textContent = "";
+            feelsOutput.textContent = "";
+            humidityOutput.textContent = "";
+            return;
+        }
     }
 }
