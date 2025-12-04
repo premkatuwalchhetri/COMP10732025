@@ -13,4 +13,6 @@ const apiKey = "9ba5b4e89060c750bff3447985693325";
 function updateWeatherInfo(data) {
 // this displays the current temperature in Celsius
     tempOutput.textContent = data.main.temp + " °C";
+// this shows a short description of the weather 
+    descOutput.textContent = data.weather[0].description;
 }
