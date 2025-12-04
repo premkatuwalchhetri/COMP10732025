@@ -17,4 +17,6 @@ function updateWeatherInfo(data) {
     descOutput.textContent = data.weather[0].description;
 // this shows what the temperature feels like
     feelsOutput.textContent = data.main.feels_like + " °C";
+// this displays the humidity percentage.
+    humidityOutput.textContent = data.main.humidity + "%";
 }
