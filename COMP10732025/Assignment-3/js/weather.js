@@ -22,5 +22,6 @@ function updateWeatherInfo(data) {
 }
 //it begins the process of getting weather data When the button is clicked
 getWeatherBtn.addEventListener('click', async () => {
-
+// this reads the city name the user entered and removes extra spaces
+    const city = cityInput.value.trim();
 }
