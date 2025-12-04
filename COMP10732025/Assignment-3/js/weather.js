@@ -9,3 +9,7 @@ const feelsOutput = document.querySelector('#feels');
 const humidityOutput = document.querySelector('#humidity');
 // this is the apikey from the weather app
 const apiKey = "9ba5b4e89060c750bff3447985693325";
+//this is the function for the update weather app
+function updateWeatherInfo(data) {
+
+}
