@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Weather API</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="css/styles.css" rel="stylesheet" />
+	<script src="js/weather.js" defer></script>
+</head>
+
+<body>
+	<h1>Weather API Demo</h1>
+
+	<label for="city">Enter Your city</label>
+	<input id="city" type="text" placeholder="Barrie">
+	<button id="getWeather">Get Weather</button>
+
+	<dl id="weatherInfo">
+		<dt>Temperature:</dt>
+		<dd id="temp"></dd>
+
+		<dt>Description:</dt>
+		<dd id="desc"></dd>
+
+		<dt>Feels Like:</dt>
+		<dd id="feels"></dd>
+
+		<dt>Humidity:</dt>
+		<dd id="humidity"></dd>
+	</dl>
+
+	<p>
+		API Documentation: 
+		<a href="https://openweathermap.org/current" target="_blank">
+			https://openweathermap.org/current
+		</a>
+	</p>
+</body>
+</html>
