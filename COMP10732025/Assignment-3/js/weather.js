@@ -29,4 +29,6 @@ getWeatherBtn.addEventListener('click', async () => {
         tempOutput.textContent = "Firstly enter a city";
         return;
     }
+    // this builds the request url using the city name and api key.
+    const url =`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 }
